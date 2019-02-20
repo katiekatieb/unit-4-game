@@ -1,0 +1,53 @@
+#crystals img{
+  width: 80px;
+  margin: 20px;
+  animation: wiggle 3s; 
+  animation-iteration-count: infinite; 
+}
+
+@keyframes wiggle {
+  0% { transform: rotate(0deg); }
+  80% { transform: rotate(0deg); }
+  85% { transform: rotate(5deg); }
+  95% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+body{
+  font-family: 'Amatic SC', cursive;
+  background-image: url("../images/cave_bg.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
+  text-align: center;
+  padding-top: 40px;
+}
+
+h1{
+  color: white;
+}
+
+h2{
+  color: white;
+  font-size: 3em;
+}
+
+h3{
+  color: white;
+}
+
+.modal-body {
+  text-align: left;
+}
+button{
+  margin: 5px;
+  background-color: #5c9e91 !important;
+  border-color:  #5c9e91 !important;
+  color: black !important;
+}
+
+.pink{
+  background-color: #eab0c8 !important;
+  border-color:  #eab0c8 !important;
+}
