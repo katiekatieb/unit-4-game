@@ -12,7 +12,7 @@ function resetGame() {
   randomNumber = Math.floor(Math.random() * (+121 - +19)) + +19;
   $('#randomNumber').text(randomNumber);
 
-  console.log(randomNumber)
+  // console.log(randomNumber)
 
   guess = 0;
   $('#guess').html(guess);
@@ -23,7 +23,7 @@ function resetGame() {
     var r = Math.floor(Math.random()*12) + 1;
     if(uniqueNumbers.indexOf(r) === -1) uniqueNumbers.push(r);
   }
-  console.log(uniqueNumbers);
+  // console.log(uniqueNumbers);
 
 
   $('#wins').html(wins);
@@ -47,13 +47,13 @@ $(".crystal").on("click", function () {
   $('#guess').html(guess);
 
   if(guess === randomNumber){
-    console.log("you win")
+    // console.log("you win")
     $('#randomNumber').text("You win!");
     wins++;
     $('#wins').html(wins);
     // $(".crystal").unbind( "click");
   } else if(guess > randomNumber){
-    console.log("you lose")
+    // console.log("you lose")
     $('#randomNumber').text("You lose!");
     losses++
     $('#losses').html(losses);
