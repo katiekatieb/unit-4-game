@@ -42,6 +42,9 @@ h3{
 }
 button{
   margin: 5px;
+}
+
+.teal{
   background-color: #5c9e91 !important;
   border-color:  #5c9e91 !important;
   color: black !important;
@@ -50,4 +53,5 @@ button{
 .pink{
   background-color: #eab0c8 !important;
   border-color:  #eab0c8 !important;
+  color: black !important;
 }
